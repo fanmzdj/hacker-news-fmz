@@ -18,7 +18,7 @@ interface Env extends CloudflareEnv {
   OPENAI_THINKING_MODEL?: string
   OPENAI_MAX_TOKENS?: string
   JINA_KEY?: string
-  NODE_ENV?: string
+  NODE_ENV: string
   HACKER_NEWS_WORKER_URL: string
   HACKER_NEWS_R2_BUCKET_URL: string
   HACKER_NEWS_WORKFLOW: Workflow
